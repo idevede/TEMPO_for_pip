@@ -21,7 +21,7 @@ setup(
     name='TEMPO',
     version=version(),
     author='Defu Cao',
-    author_email='hongyong@usc.edu',
+    author_email='defucao@usc.edu',
     description='Time Series Foundation Model - TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting',
     long_description=long_description,
     long_description_content_type='text/markdown',

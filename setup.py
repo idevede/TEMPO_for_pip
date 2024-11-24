@@ -10,7 +10,7 @@ def version():
     try:
         return read('VERSION').strip().lstrip('v')
     except:
-        return "0.0.0.dev0"
+        return "0.0.0"
 
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
@@ -18,7 +18,7 @@ with open('requirements.txt') as f:
 long_description = read('README.md') if os.path.isfile("README.md") else ""
 
 setup(
-    name='tempo_dev',
+    name='tempodev',
     version=version(),
     author='Defu Cao',
     author_email='defucao@usc.edu',

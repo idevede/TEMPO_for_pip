@@ -18,7 +18,7 @@ with open('requirements.txt') as f:
 long_description = read('README.md') if os.path.isfile("README.md") else ""
 
 setup(
-    name='TEMPO-dev',
+    name='tempo_dev',
     version=version(),
     author='Defu Cao',
     author_email='defucao@usc.edu',
